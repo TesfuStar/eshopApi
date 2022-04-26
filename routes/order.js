@@ -1,6 +1,6 @@
 const Order = require('../models/Order');
 
-const { verifyTokenAndAuthorization,verifyTokenAndAdmin,verifyToken } = require('./verifytoken');
+const { verifyTokenAndAuthorization,verifyTokenAndAdmin,verifyToken } = require('./VerifyToken');
 
 const router = require('express').Router();
 
